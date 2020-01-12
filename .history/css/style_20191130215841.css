@@ -1,0 +1,26 @@
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem 2rem;
+}
+
+.slider-img img {
+    border: 1px solid;
+    width: 100%;
+    /* height: 50%; */
+}

@@ -1,0 +1,533 @@
+body {
+    /* margin: 0; */
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.0;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.navbar {
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem 2rem;
+}
+
+.slider-img img {
+    width: 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+}
+.carousel {
+    height: 100vh !important;
+}
+.carousel-inner {
+    height: 100vh !important;
+}
+.carousel-item {
+    height: 100vh !important;
+}
+
+li.nav-item {
+    padding-left: 20px;
+}
+
+a.navbar-brand img {
+    width: 75%;
+    height: 50px;
+}
+
+section.text-button {
+    border: 1px solid #000 !important;
+    padding: 40px 0px 40px 0px;
+    background: #68AE4A;
+}
+
+
+ /* .button-section .btn-primary {
+    color: #68AE4A;
+    background-color: #ffffff !important;
+    border-color: #68AE4A;
+    float: right;
+    padding: 0 36px;
+    height: 55px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0px;
+}  */
+
+.contact-us-heading .button-section2 .btn-outline-primary {
+    color: #68AE4A;
+    background-color: #68AE4A !important;
+    border-color: #68AE4A;
+    float: right;
+    padding: 0 36px;
+    height: 55px;
+    background-color: #fff;
+    color: #fff !important;
+    border-radius: 0px;
+    align-items: center;
+} 
+
+.contact-us-heading .button-section2 .btn-outline-primary:hover {
+    color: #fff;
+    border-color: #fff !important;
+    background-color: #68ae4a !important;
+    
+}
+
+.btn-outline-primary {
+    color: #000000;
+    border-color: #ffffff;
+    background: #fff !important;
+    border-radius: 0px;
+    padding: 0 36px;
+    height: 55px;
+}
+
+
+
+.btn-outline-primary:hover {
+    color: #fff;
+    border-color: #fff !important;
+    background-color: #68ae4a !important;
+    
+}
+
+.heading-line, h3
+{
+    color: #fff !important;
+    margin-top: 10px;   
+}
+
+.card-icon.text-center {
+    font-size: 36px;
+}
+
+section.grey-section {
+    background: #f5f5f5 !important;
+    padding: 36px 0px;
+}
+
+li.nav-item.active {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #222222 !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.paraghar-grey.mt-5 p {
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 32px !important;
+    color: #777 !important;
+}
+
+.green{
+    color: #68AE4A !important;
+}
+
+.green2{
+    color: #68AE4A !important;
+    text-align: center;
+}
+
+.card-img{
+    font-size: 70px;
+}
+
+.card{
+    padding: 50px;
+}
+
+.heading{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.heading-40{
+   font-size: 40px !important; 
+}
+
+.heading-40-2{
+    font-size: 40px !important; 
+    text-align: center;
+ }
+
+.post-no {
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 1;
+    color: rgba(18, 18, 18, 0.06);
+    margin-bottom: 14px;
+}
+
+.post-no h1 {
+    font-size: 85px;
+}
+
+.heading-40 p {
+    margin-top: -14px;
+    margin-bottom: 4rem;
+    line-height: 1.5;
+}
+
+p {
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    line-height: 2;
+}
+
+.heading-card.text-center {
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.post-heading h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #68AE4A !important;
+}
+
+.post-heading-med h3 {
+    color: #000 !important;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 1.5;
+    margin-bottom: 19px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid #eee;
+}
+
+.paraghar-card p{
+    font-size: 18px;
+    color: #777 !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.paraghar-card-2 p{
+    font-size: 16px;
+    color: #777 !important;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-bottom: 19px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #eee;
+}
+
+.heading-13 {
+    margin-top: 50px;
+    color: #68AE4A !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.paraghar.text-center p {
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 32px !important;
+    color: #777 !important;
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    /* line-height: 2; */
+}
+
+.heading-40-card p {
+    margin-top: -14px;
+    margin-bottom: 4rem;
+    line-height: 1.5;
+    font-size: 37px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.paraghar-card-new p{
+    font-size: 20px;
+    color: #777 !important;
+    font-weight: 500;
+}
+ 
+.white-section{
+    margin-bottom: 80px;
+}
+
+.w3-green, .w3-hover-green:hover {
+    /* color: #fff!important; */
+    background-color: #4CAF50!important;
+}
+
+.title h6{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222 !important;
+
+}
+
+.heading-line-price h4{
+    font-size: 36px;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #222 !important;
+    
+}
+
+
+.listing li{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.listing ul li i{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #4CAF50 !important;
+    float: left;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.listing ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.listing ul li{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.listing ul li h5{
+    color: #222 !important;
+    font-size: 16px !important;
+
+}
+
+.more-pricing p {
+    text-align: center;
+}
+
+.border-div{
+    border: 2px solid #eee !important;
+}
+
+.contact-us-head{
+    align-content: center;
+}
+
+.contact-us-heading .form-group{
+    border: none;
+    
+}
+
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #eee !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.address-content{
+    font-size: 15px;
+    line-height: 1.74;
+    color: #777;
+}
+
+.address-content2 p{
+   margin-bottom: -20px;
+}
+
+h2.contact-us-head2 {
+    margin-bottom: 45px;
+}
+
+h2.contact-us-head {
+    text-align: center;
+}
+
+.footer-web{
+    background-color: #000 !important;
+}
+
+.about-us-small h6{
+    color: #fff !important;
+    line-height: 1.5;
+}
+
+.about-us-team h6{
+    color: #fff !important;
+    line-height: 1.5;
+}
+
+.about-us-career h6{
+    color: #fff !important;
+    line-height: 1.5;
+}
+
+.about-us-service h6{
+    color: #fff !important;
+    line-height: 1.5;
+}
+
+.about-us-contact h6{
+    color: #fff !important;
+    line-height: 1.5;
+}
+
+.footer-text p{
+    color: #fff !important;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+}
+
+.about-us a {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.about-us a:hover {
+    color: #4CAF50 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.other-linkss a{
+    color: #fff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.other-linkss a:hover {
+    color: #4CAF50 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+i.fa.fa-facebook {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+i.fa.fa-facebook:hover {
+    color: #4CAF50 !important;
+    font-size: 18px;
+}
+
+i.fa.fa-twitter {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+i.fa.fa-twitter:hover {
+    color: #4CAF50 !important;
+    font-size: 18px;
+}
+
+i.fa.fa-google-plus {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+i.fa.fa-google-plus:hover {
+    color: #4CAF50 !important;
+    font-size: 18px;
+}
+
+i.fa.fa-linkedin {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+i.fa.fa-linkedin:hover {
+    color: #4CAF50 !important;
+    font-size: 18px;
+}
+
+.other-linkss .links h3 {
+    font-size: 24px !important;
+    font-weight: 500;
+
+}
+
+.social-media-icons .social-media-heading h3 {
+    font-size: 24px !important;
+    font-weight: 500;
+}
+
+.about-us .about-us-heading h3{
+    font-size: 24px !important;
+    font-weight: 500;
+}
+
+.testimonial-heading-small.text-center h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #68AE4A !important;
+}
+
+.testimonial-content h2{
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.test-picture img {
+    border-radius: 50%;
+    height: auto;
+    max-width: 010%;
+  }
+
+.test-picture-name h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.test-picture-name h6 span{
+    font-size: 18px;
+    font-weight: 600;
+}
